@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function NotFound() { return <div className="empty-state page-empty"><strong>Page not found</strong><Link to="/">Return to dashboard</Link></div>; }
